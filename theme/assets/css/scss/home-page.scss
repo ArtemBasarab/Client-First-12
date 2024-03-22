@@ -1,0 +1,90 @@
+@import "parts/reset";
+@import "../../libs/swiper/swiper.min.css";
+@import "../fonts.css";
+@import "../icons.css";
+@import "parts/global";
+@import "parts/header";
+
+/* START homepage styles */
+.homepage {
+
+    &__container {
+        padding-top: 165px;
+       
+    }
+
+    &__latest-post {
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        height: calc(100lvh - 80px);
+    }
+
+    &__latest-post-category {
+        text-transform: uppercase;
+        
+        & > i {
+            font-weight: 700;
+        }
+    }
+
+    &__latest-post-title {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 60%;
+        font-size: 3.5rem;
+    }
+
+    &__latest-post-meta {
+    }
+
+    &__latest-post-author {
+        border-right: 1px solid #fff;
+        padding-right: 10px;
+        & > i {
+            color: $yellow;
+        }
+    }
+
+    &__latest-post-date {
+        padding-left: 10px;
+    }
+
+    &__latest-post-desc {
+        margin-top: 30px;
+        
+        & > p {
+            width: 40%;
+        }
+    }
+
+    &__latest-post-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 204px;
+        height: 56px;
+        background: $yellow;
+        color: $black;
+        font-size: 1.13rem;
+        font-family: "Sen", serif;
+        font-weight: 700;
+        margin-top: 48px;
+    }
+
+    &__latest-post-thumbnail {
+        //position: absolute;
+        z-index: -1;
+        width: 100%;
+        top: 0;
+        & > img {
+            width: 100%;
+            object-fit: cover
+        }
+    }
+}
+
+
+/* END homepage styles */
+
+@import "parts/footer";

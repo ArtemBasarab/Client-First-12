@@ -1,0 +1,106 @@
+/* START fonts */
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraLight.woff2') format('woff2'),
+         url('../fonts/Inter-ExtraLight.woff') format('woff'),
+         url('../fonts/Inter-ExtraLight.ttf') format('ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Light.woff2') format('woff2'),
+         url('../fonts/Inter-Light.woff') format('woff'),
+         url('../fonts/Inter-Light.ttf') format('ttf');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Thin.woff2') format('woff2'),
+         url('../fonts/Inter-Thin.woff') format('woff'),
+         url('../fonts/Inter-Thin.ttf') format('ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+         url('../fonts/Inter-Regular.woff') format('woff'),
+         url('../fonts/Inter-Regular.ttf') format('ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.woff2') format('woff2'),
+         url('../fonts/Inter-Medium.woff') format('woff'),
+         url('../fonts/Inter-Medium.ttf') format('ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+         url('../fonts/Inter-SemiBold.woff') format('woff'),
+         url('../fonts/Inter-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+         url('../fonts/Inter-Bold.woff') format('woff'),
+         url('../fonts/Inter-Bold.ttf') format('ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraBold.woff2') format('woff2'),
+         url('../fonts/Inter-ExtraBold.woff') format('woff'),
+         url('../fonts/Inter-ExtraBold.ttf') format('ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Black.woff2') format('woff2'),
+         url('../fonts/Inter-Black.woff') format('woff'),
+         url('../fonts/Inter-Black.ttf') format('ttf');
+    font-weight: 900;
+}
+
+
+@font-face {
+    font-family: 'Sen';
+    src: url('../fonts/Sen-Regular.woff2') format('woff2'),
+         url('../fonts/Sen-Regular.woff') format('woff'),
+         url('../fonts/Sen-Regular.ttf') format('ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Sen';
+    src: url('../fonts/Sen-Medium.woff2') format('woff2'),
+         url('../fonts/Sen-Medium.woff') format('woff'),
+         url('../fonts/Sen-Medium.ttf') format('ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Sen';
+    src: url('../fonts/Sen-SemiBold.woff2') format('woff2'),
+         url('../fonts/Sen-SemiBold.woff') format('woff'),
+         url('../fonts/Sen-SemiBold.ttf') format('ttf');
+    font-weight:600;
+}
+@font-face {
+    font-family: 'Sen';
+    src: url('../fonts/Sen-Bold.woff2') format('woff2'),
+         url('../fonts/Sen-Bold.woff') format('woff'),
+         url('../fonts/Sen-Bold.ttf') format('ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Sen';
+    src: url('../fonts/Sen-ExtraBold.woff2') format('woff2'),
+         url('../fonts/Sen-ExtraBold.woff') format('woff'),
+         url('../fonts/Sen-ExtraBold.ttf') format('ttf');
+    font-weight: 100;
+}
+
+/* END fonts */

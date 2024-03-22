@@ -1,0 +1,91 @@
+/* START global styles */
+
+$black: #232536;
+$yellow: #FFD050;
+$darkGray: #4C4C4C;
+$mediumGrey: #6D6E76;
+$purple: #592EA9;
+$lavender: #F4F0F8;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  @media screen and ( max-width: 1024px) {
+    font-size: 14px;
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h1 {
+  font-family: "Sen", serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 64px;
+}
+
+h2 {
+  font-family: "Sen", serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 48px;
+}
+
+h3 {
+  font-family: "Sen", serif;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 36px;
+}
+
+h4 {
+  font-family: "Sen", serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 32px;
+}
+
+h5 {
+  font-family: "Sen", serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 32px;
+}
+
+h6 {
+  font-family: "Sen", serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100lvh;
+}
+
+.container {
+  width: 88%;
+  margin: 0 auto;
+}
+
+/* END global styles */
